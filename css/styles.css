@@ -8192,6 +8192,11 @@ textarea.form-control-lg {
   color: #006cd3;
 }
 
+.easter-egg{
+  color: black;
+  text-decoration: none;
+}
+
 .negrito{
   font-weight: bold;
 }
