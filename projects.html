@@ -60,7 +60,7 @@
                                         <div class="p-4">
                                             <h2 class="fw-bolder text-gradient">SINJ (TCDF)</h2>
                                             <h6 style="font-size: small;" class="fw-bolder text-uppercase">.NET &middot; C#</h6>
-                                            <p>Sistema de gestão e divulgação de leis, portarias, decretos e outras normas jurídicas. Enquanto estive encarregado dele fui responsável por dar manutenção e realizar uma serie de evoluções. Desenvolvi um bot que busca e salva diariamente os diários gerados pelo DODF. Implementei a criação dinâmica de relatórios e o envio desses relatórios por email. Além de ter atuado em diversas correções e mudanças de regra pontuais no sistema.</p>
+                                            <p>Sistema de gestão e divulgação de leis, portarias, decretos e outras normas jurídicas. Enquanto estive encarregado dele fui responsável por dar manutenção e realizar uma serie de evoluções. Desenvolvi uma rotina que busca e salva diariamente os diários gerados pelo DODF e já estrutura no formato que o sistema exige. Implementei a criação dinâmica de relatórios e o envio desses relatórios por email. Criei um mecanismo de versionamento de normas, para permitir sua modificação a longo prazo sem que isso reflita imediatamente para os leitores. Além de ter atuado em diversas outras evolutivas e correções no sistema.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@
                                         <div class="p-4">
                                             <h2 class="fw-bolder text-gradient">Web Info (PGFN)</h2>
                                             <h6 style="font-size: small;" class="fw-bolder text-uppercase">Spring &middot; Java</h6>
-                                            <p>API desenvolvida com a finalidade de unificar e gerenciar permissões de todas as outras APIs e sistemas utilizados pela PGFN.</p>
+                                            <p>API desenvolvida com a finalidade de unificar e gerenciar permissões de todas as outras APIs e sistemas utilizados pela PGFN. Veio com o intuito de facilitar o acesso as informações utilizando um único acesso, sem precisar acessar e consultar individualmente nas várias APIs externas que a PGFN consome.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -92,8 +92,8 @@
                                     <div class="d-flex align-items-center">
                                         <div class="p-4">
                                             <h2 class="fw-bolder text-gradient">Sistemas Legados (PGFN)</h2>
-                                            <h6 style="font-size: small;" class="fw-bolder text-uppercase">Java &middot; JSP &middot; JPA</h6>
-                                            <p>Durante minha estadia na PGFN fiquei responsável por dar manutenção e fazer pequenas evoluções em uma serie de sistemas legados. Dentre eles o Assinatura, o Geplanes, o Permuta e o Promoção.</p>
+                                            <h6 style="font-size: small;" class="fw-bolder text-uppercase">Java &middot; JSP</h6>
+                                            <p>Durante minha estadia na PGFN fiquei responsável por dar manutenção e fazer pequenas evoluções em uma serie de sistemas legados todos em JSP. Dentre eles o Assinatura, o Geplanes, o Permuta e o Promoção.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +104,7 @@
                                         <div class="p-4">
                                             <h2 class="fw-bolder text-gradient">WS-Log e Library-Log (SESC/MG)</h2>
                                             <h6 style="font-size: small;" class="fw-bolder text-uppercase">Spring &middot; Java &middot; Kafka</h6>
-                                            <p>Estrutura de log dos microsserviços do SESC/MG que consiste em um microsserviço (ws-log) que consome mensagens enviadas por todos os outros microsserviços através de uma biblioteca (library-log) que intercepta as requisições e envia ao sistema de mensageria kafka para registro dos logs.</p>
+                                            <p>A estrutura de log para os microsserviços do SESC/MG é composta por um microsserviço dedicado chamado ws-log. Ele utiliza uma biblioteca específica, library-log, que intercepta as requisições de todos os microsserviços, gera um log com base nos dados capturados e os encaminha para o sistema de mensageria Kafka. Essas mensagens são recebidas no ws-log, processadas e salvas no banco de dados.</p>
                                         </div>
                                     </div>
                                 </div>
